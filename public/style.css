@@ -22241,6 +22241,12 @@ video {
           animation: bounce 1s infinite;
 }
 
+.bob {
+  --text-opacity: 1;
+  color: #742a2a;
+  color: rgba(116, 42, 42, var(--text-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
