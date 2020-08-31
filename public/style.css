@@ -22241,11 +22241,17 @@ video {
           animation: bounce 1s infinite;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
 .bob {
   --text-opacity: 1;
   color: #742a2a;
   color: rgba(116, 42, 42, var(--text-opacity));
 }
+
+/* .cursive-text {
+  @apply font-family: 'Dancing Script', cursive;
+} */
 
 @media (min-width: 640px) {
   .sm\:container {
