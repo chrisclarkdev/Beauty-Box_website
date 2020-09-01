@@ -4,20 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  
   <title>Welcome to the Beauty Box New Romney</title>
 </head>
 <body class="bg-gray-100">
   
 <div class="sm:container bg-white mx-auto">
   <head>
-    <nav class=>
-      <img  class="w-48  mx-auto"src="./images/400dpiLogo.png" alt="Beauty Box logo">
-      <ul class = "p-2 md:flex justify-center bg-pink-300 text-white">
+    <nav>
+      <div class="flex justify-between items-center md:none">
+      <img  class=" w-24 md:w-48  md:mx-auto"src="./images/400dpiLogo.png" alt="Beauty Box logo">
+      <div class="px-4 cursor-pointer md:hidden" id="burger">
+        <svg  class="w-10" viewBox="0 0 20 20" fill="currentColor" class="menu w-6 h-6"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+      </div>
+      </div>
+      
+      <ul class = "p-2 md:flex md:justify-center bg-pink-300 text-white hidden md:block " id="menu">
         <li class="mr-4 md:mr-8 text-lg">Home</li>
         <li class="mr-4 md:mr-8 text-lg"><a href="#price">Price List</a></li>
         <li class="mr-4 text-lg"><a href="#contact">Contact Us</a></li>
       </ul>
+      
     </nav>
   </head>
     <section>
@@ -35,7 +41,7 @@
     </div>
     <div class="m-2">
       <p class="m-2 text-lg">Hi my name is Karen and I run a Hair and Beauty Salon in New Romney, as a mum of four girls, I know that hairstyles and colour trends are constantly changing and I do my upmost to keep up to date with the lastest styles.</p>
-        <p class="m-2 text-lg">We offer all types of treatments and  we are always training to be able to offer more treatments to our clients. I also offer mobile hairdressing as well. If you would like to book an appointment please call us on <a href="tel:07598566873">07598 566873</a>.</p>
+        <p class="m-2 text-lg">We offer all types of treatments and  we are always training to be able to offer more treatments to our clients. I also offer mobile hairdressing as well. If you would like to book an appointment please call me on <a href="tel:07598566873">07598 566873</a>.</p>
     </div>
     <!-- 3 boxes below main main photo  -->
     <section class="md:flex m-2">
@@ -158,12 +164,12 @@
     </div>
 
     <footer class="bg-gray-400 rounded-lg m-2 p-2">
-      <p class="text-center text-2xl">&copy; 2020 The Beauty Box</p> 
-      <p class="text-right text-xs">Built by the Coding Shed</p>
+      <p class="text-center md:text-2xl">&copy; 2020 The Beauty Box</p> 
+      <p class="hidden md:block md:text-right md:text-xs ">Built by the Coding Shed</p>
     </footer>
 </div>
 
-  <script src="app.js"></script>
+  <script src="index.js"></script>
   <script src="https://kit.fontawesome.com/91df46191e.js" crossorigin="anonymous"></script>
 </body>
 </html>
