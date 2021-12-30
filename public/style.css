@@ -22249,10 +22249,6 @@ video {
   color: rgba(116, 42, 42, var(--text-opacity));
 }
 
-/* .cursive-text {
-  @apply font-family: 'Dancing Script', cursive;
-} */
-
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
